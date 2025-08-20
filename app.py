@@ -3,7 +3,8 @@ import pickle
 import nltk
 import string
 from nltk.corpus import stopwords
-
+nltk.download('stopwords')
+nltk.download('punkt')
 from indicnlp.normalize.indic_normalize import IndicNormalizerFactory
 from indicnlp.tokenize import indic_tokenize  
 
