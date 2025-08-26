@@ -33,8 +33,8 @@ def processed_sentence(model, tfidf,input_sms):
         
     return 0 
 
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+tfidf = pickle.load(open('vectorizer1.pkl', 'rb'))
+model = pickle.load(open('model1.pkl', 'rb'))
 
 
 st.title('এসএমএস স্প্যাম শনাক্তকরণ')
