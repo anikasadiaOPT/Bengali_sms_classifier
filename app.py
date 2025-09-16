@@ -37,7 +37,7 @@ tfidf = pickle.load(open('vectorizer1.pkl', 'rb'))
 model = pickle.load(open('model1.pkl', 'rb'))
 
 
-st.title('এসএমএস স্প্যাম শনাক্তকরণ')
+st.title('বার্তাবন্ধু')
 input_sms = st.text_area('আপনার বার্তা এখানে লিখুন')
 if st.button('এসএমএস শনাক্তকরণ'):
     #1 
