@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from indicnlp.normalize.indic_normalize import IndicNormalizerFactory
 from indicnlp.tokenize import indic_tokenize  
 
+nltk.download('stopwords')
 bengali_punctuation = "[{(%।॥,@&*?!-…‘’“”<#>:;)}]\n"
 def bengali_stem(word):
     suffixes = ["গুলো", "গুলি", "দের", "তে", "কে", "রা", "টি", "ে"]
