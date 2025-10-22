@@ -78,6 +78,3 @@ Contributions to improve বার্তাবন্ধু are welcome! Here's h
 ## License
 This project is available for use under the MIT License.
 
-## Acknowledgments
-- Thanks to all contributors who have helped develop and improve this project
-- Special recognition to the open-source NLP community for resources and tools
